@@ -11,7 +11,7 @@ Aquest repositori conté els components desenvolupats per al Treball de Fi de Gr
   Script en Python que permet descarregar la informació de nonogrames des de [nonograms.org](https://www.nonograms.org/nonograms).
 
 - **Generador de nonogrames aleatoris**  
-  Script en Python que genera nonogrames resolubles amb la mida i densitat especificades.
+  Script en Python que genera la informació de nonogrames resolubles amb la mida i densitat especificades.
 
 - **Codificador de nonogrames**  
   Script en Python que codifica nonogrames a SAT segons una de les codificacions disponibles: `ENC1`, `ENC2`, `ENC3` o `ENC3V2`.
