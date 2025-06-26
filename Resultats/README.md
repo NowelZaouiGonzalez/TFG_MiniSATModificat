@@ -39,8 +39,8 @@ Dins de cada `.zip`, hi ha una estructura de carpetes per a cada encoding utilit
 -  **info_(*nomSubcarpeta*).csv**  
   Informació extra generada per la versió modificada de MiniSAT, com:
 
-  - Nombre de clàusules **unàries**, **binàries** i **ternàries** descobertes durant la cerca.
-  - Quantitat de clàusules **noves** generades, agrupades segons la **mida**.
+    - Nombre de clàusules **unàries**, **binàries** i **ternàries** descobertes durant la cerca.
+    - Quantitat de clàusules **noves** generades, agrupades segons la **mida**.
 
 ---
 
