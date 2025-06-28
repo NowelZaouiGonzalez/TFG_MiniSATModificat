@@ -20,7 +20,7 @@ Mirar el README dins de la carpeta. Es el mateix README que al minisat original 
 | `-pe-er` | Int (0-100) | Percentatge desitjat per l’estratègia **ER**. Assignar valor >0 activa l’estratègia. Si només s’activa ER sense valor, per defecte és 100. | 0 |
 | `-r-ac` | Bool | Activa l’estratègia **AC (Evitar retrocés excessiu/ Recordar binàreis AC)** | false |
 | `-pr-ac` | Int (0-100) | Percentatge desitjat per l’estratègia **AC**. Assignar valor >0 activa l’estratègia. Si només s’activa AC sense valor, per defecte és 100. | 0 |
-| `-mirar-reduccio` | Bool | Mostra la **reducció de la base de dades** després de la primera simplificació. | false |
+| `-mirar-reduccio` | Bool | Activa la generació d’un fitxer **reduccio.txt** que mostra la reducció de la base de dades de clàusules després de la primera simplificació. L’arxiu es crea al mateix directori on s’executa el MiniSAT. | false |
 
 ---
 
