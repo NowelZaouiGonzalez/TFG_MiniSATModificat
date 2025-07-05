@@ -30,13 +30,13 @@ Quan s’executa l’script:
 - Es crea (si no existeix) una **carpeta principal** anomenada `Nonogrames`.
 - Per **cada Nonograma descarregat**, s’hi genera un **fitxer `.txt`** amb el format:
 
-  NNGR_<files>x<columnes>_<número>.txt
+  NNGR_{files}x{columnes}_{número}.txt
 
   Aquest fitxer conté la informació del Nonograma: la seva mida i les pistes corresponents.
 
 - També es genera la imatge de la solució (`.png`) dins de la subcarpeta:
 
-  Nonogrames/Solutions/SOLUTION_NNGR_<files>x<columnes>_<número>.png
+  Nonogrames/Solutions/SOLUTION_NNGR_{files}x{columnes}_{número}.png
 
 ## Execucions múltiples
 
