@@ -50,9 +50,9 @@ El nom del Nonograma es considerarà el mateix que el del fitxer, però sense l�
 2
 1 1
 0
-```
-comentari: -1 per infdcar ambigüetat
 
+comentari: -1 per infdcar ambigüetat
+```
 ## Selecció del mode de codificació
 
 Es pot seleccionar el mode de codificació amb l'opció `-m`:
