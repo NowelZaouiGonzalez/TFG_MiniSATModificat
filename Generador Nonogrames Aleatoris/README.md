@@ -1,18 +1,18 @@
-# 🎲 RandomGeneratorNonogram.py
+# RandomGeneratorNonogram.py
 
 Aquest script en **Python** permet generar **nonogrames aleatoris** donant la mida i la densitat desitjada. Els nonogrames generats s’emmagatzemen automàticament en fitxers `.txt`.
 
-## 🧠 Què fa?
+## Què fa?
 
 - Genera una graella de mides personalitzables amb cel·les pintades aleatòriament segons una **densitat** donada.
 - Calcula automàticament les **pistes** corresponents a cada fila i columna.
 - Desa el nonograma generat a un fitxer `.txt` dins d'una carpeta anomenada `RandomNonograms/`, amb un nom únic.
 
-## ⚙️ Requisits
+## Requisits
 
 Aquest script no depèn de cap biblioteca externa. Només cal tenir Python instal·lat.
 
-## 🚀 Ús
+## Ús
 
 ### Executa des de terminal:
 
@@ -34,7 +34,7 @@ python RandomGeneratorNonogram.py -f 10 -c 15 -d 35.0
 
 Això generarà un nonograma de 10x15 amb aproximadament un 35% de cel·les pintades.
 
-## 📂 Sortida
+## Sortida
 
 - Es crea (si no existeix) la carpeta `RandomNonograms/`
 - S'hi afegeix un fitxer `.txt` per cada nonograma generat, amb nom del format:
