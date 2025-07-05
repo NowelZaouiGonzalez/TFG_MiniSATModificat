@@ -34,7 +34,7 @@ En aquest cas, el Nonograma assumirà per defecte el **nom `NONOGRAMA_BASIC`**.
   - Les primeres `F` línies corresponen a les **pistes de cada fila**.
   - Les següents `C` línies corresponen a les **pistes de cada columna**.
 
-- **Les línies posteriors (opcional):** es poden utilitzar per escriure comentaris o notes.
+- **Les línies posteriors (opcional):** es poden utilitzar per escriure comentaris o notes al fitxer.
 
 ---
 
