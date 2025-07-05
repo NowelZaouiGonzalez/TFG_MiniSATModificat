@@ -86,7 +86,7 @@ Aquest fitxer es desa dins la carpeta `Encodings/` amb subcarpetes segons el mod
 Juntament amb el fitxer DIMACS, es genera també un fitxer:
 
 ```
-tauler_{nom_codificació}
+tauler_{nom_codificació}.txt
 ```
 
 Aquest fitxer conté:
@@ -105,7 +105,9 @@ python3 generatorCNF_Nonogrames.py -i exemples/nonograma01.txt -m 2
 
 Això generarà:
 - El fitxer DIMACS dins de `Encodings/ENC2_Eficient/`
-- El fitxer de tauler corresponent
+- El fitxer sera ENC2_nonograma01.dimacs
+- El fitxer de tauler corresponent es trobara a `Encodings/ENC2_Eficient/Taulers/`
+- El fitxer del tauler es tauler_ENC2_nonograma01.txt
 
 ---
 
