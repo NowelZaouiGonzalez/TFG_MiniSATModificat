@@ -1,4 +1,4 @@
-# TFG_ModifiedMinisat
+# TFG_MiniSATModificat
 
 Aquest repositori conté els components desenvolupats per al Treball de Fi de Grau (TFG), relacionats amb la modificació de MiniSAT i la seva aplicació a la resolució de nonogrames.
 
