@@ -11,20 +11,32 @@ El programa llegeix la informació d'un Nonograma des d'un fitxer `.txt` especif
 -i nom_nonograma.txt
 ```
 
-El nom del Nonograma es considerarà el mateix que el del fitxer, però sense l’extensió `.txt`.
+El **nom del Nonograma** es considerarà el mateix que el del fitxer, però sense l’extensió `.txt`.
 
-### Format del fitxer:
+### 🔄 Si no s'especifica el paràmetre `-i`:
+
+Si no s'indica cap fitxer amb `-i nom_nonograma.txt`, el programa demanarà introduir **manualment des del teclat**:
+
+1. La primera línia amb els valors `F C`.
+2. Les següents `F + C` línies amb les pistes de files i columnes.
+
+En aquest cas, el Nonograma assumirà per defecte el **nom `NONOGRAMA_BASIC`**.
+
+---
+
+### Format de la informació del Nonograma:
 
 - **Primera línia:** dos valors enters separats per espai, `F C`, on  
   - `F` és el nombre de files  
   - `C` és el nombre de columnes
 
 - **Les següents F + C línies:** contenen les pistes del Nonograma.
-
-  - Les primeres `F` línies corresponen a les **pistes de cada fila**.  
+  - Les primeres `F` línies corresponen a les **pistes de cada fila**.
   - Les següents `C` línies corresponen a les **pistes de cada columna**.
- 
-- **Despres de les següents F + C línies:** es pot utilitzar per deixar comentaris.
+
+- **Les línies posteriors (opcional):** es poden utilitzar per escriure comentaris o notes.
+
+---
 
 ### Regles de les pistes:
 
@@ -36,7 +48,8 @@ El nom del Nonograma es considerarà el mateix que el del fitxer, però sense l�
 
 ---
 
-## Exemple de contingut fitxer de Nonograma
+## Exemple de contingut d’un fitxer de Nonograma
+
 ```
 5 5
 2
@@ -51,8 +64,17 @@ El nom del Nonograma es considerarà el mateix que el del fitxer, però sense l�
 1 1
 0
 
-comentari: -1 per infdcar ambigüetat
+comentari: -1 per indicar ambigüetat
 ```
+
+---
+
+**Resum funcional:**
+
+- Amb `-i`: llegeix el fitxer especificat.  
+- Sense `-i`: l’usuari introdueix manualment i el nom per defecte serà `NONOGRAMA_BASIC`.
+
+
 ## Selecció del mode de codificació
 
 Es pot seleccionar el mode de codificació amb l'opció `-m`:
