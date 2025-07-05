@@ -13,6 +13,45 @@ El programa llegeix la informació d'un Nonograma des d'un fitxer `.txt` especif
 
 El nom del Nonograma es considerarà el mateix que el del fitxer, però sense l’extensió `.txt`.
 
+### Format del fitxer:
+
+- **Primera línia:** dos valors enters separats per espai, `F C`, on  
+  - `F` és el nombre de files  
+  - `C` és el nombre de columnes
+
+- **Les següents F + C línies:** contenen les pistes del Nonograma.
+
+  - Les primeres `F` línies corresponen a les **pistes de cada fila**.  
+  - Les següents `C` línies corresponen a les **pistes de cada columna**.
+ 
+- **Despres de les següents F + C línies:** es pot utilitzar per deixar comentaris.
+
+### Regles de les pistes:
+
+- Si una fila o columna té més d’un bloc com a pista, **tots els valors han de ser positius** i indicaran la mida de cada bloc en ordre.
+
+- Si no hi ha cap bloc a la fila o columna, utilitza el **valor `0`** per indicar que és buida.
+
+- Si no es vol especificar la pista d’una fila o columna (per exemple, en casos d’ambigüitat), utilitza un **valor negatiu**. Qualsevol valor menor que 0 s’interpretarà com a “pista no especificada”.
+
+---
+
+## Exemple de contingut fitxer de Nonograma
+5 5
+2
+1 1
+3
+1
+0
+-1
+2
+3
+2
+1 1
+0
+
+comentari: -1 per infdcar ambigüetat
+
 ## Selecció del mode de codificació
 
 Es pot seleccionar el mode de codificació amb l'opció `-m`:
