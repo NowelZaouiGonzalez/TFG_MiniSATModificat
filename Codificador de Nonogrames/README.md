@@ -3,7 +3,7 @@
 
 Aquest directori conté un script en Python per generar codificacions SAT de Nonogrames en format DIMACS. El programa permet llegir un arxiu de Nonograma i generar la seva codificació segons diferents modes.
 
-## 📥 Lectura del Nonograma
+## Lectura del Nonograma
 
 El programa llegeix la informació d'un Nonograma des d'un fitxer `.txt` especificat amb el paràmetre:
 
@@ -13,7 +13,7 @@ El programa llegeix la informació d'un Nonograma des d'un fitxer `.txt` especif
 
 El nom del Nonograma es considerarà el mateix que el del fitxer, però sense l’extensió `.txt`.
 
-## ⚙️ Selecció del mode de codificació
+## Selecció del mode de codificació
 
 Es pot seleccionar el mode de codificació amb l'opció `-m`:
 
@@ -24,7 +24,7 @@ Es pot seleccionar el mode de codificació amb l'opció `-m`:
 -m 3 -v2     # Codificació ENC3V2
 ```
 
-## 🧩 Generació del fitxer DIMACS
+## Generació del fitxer DIMACS
 
 El programa genera un arxiu DIMACS amb la codificació SAT del Nonograma. El fitxer es desa amb el nom:
 
@@ -41,7 +41,7 @@ Aquest fitxer es desa dins la carpeta `Encodings/` amb subcarpetes segons el mod
 
 > ⚠️ Aquesta funcionalitat utilitza la llibreria [`pysat`](https://pysathq.github.io/), que ha d’estar instal·lada prèviament.
 
-## 🗂️ Fitxer auxiliar de tauler
+## Fitxer auxiliar de tauler
 
 Juntament amb el fitxer DIMACS, es genera també un fitxer:
 
@@ -57,7 +57,7 @@ Aquest fitxer és útil per interpretar la solució SAT i reconstruir la soluci�
 
 ---
 
-## 🔧 Exemple d’ús
+## Exemple d’ús
 
 ```bash
 python3 generatorCNF_Nonogrames.py -i exemples/nonograma01.txt -m 2
@@ -69,7 +69,7 @@ Això generarà:
 
 ---
 
-## 📦 Requisits
+## Requisits
 
 - Python 3.12.3
 - [pysat](https://pypi.org/project/python-sat/):  
