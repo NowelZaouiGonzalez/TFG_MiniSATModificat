@@ -1,0 +1,28 @@
+|--- Promig_Llibertat_Total <= 28.25
+|   |--- class: 0
+|--- Promig_Llibertat_Total >  28.25
+|   |--- Promig_Llibertat_Total <= 28.28
+|   |   |--- Promig_Pistes/Columna <= 6.15
+|   |   |   |--- class: 1
+|   |   |--- Promig_Pistes/Columna >  6.15
+|   |   |   |--- class: 0
+|   |--- Promig_Llibertat_Total >  28.28
+|   |   |--- Desviacio_Est._Mida_Pistes <= 2.95
+|   |   |   |--- Desviacio_Est._Mida_Pistes <= 2.92
+|   |   |   |   |--- Promig_Pistes/Columna <= 6.25
+|   |   |   |   |   |--- Promig_Pistes/Columna <= 5.90
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Promig_Pistes/Columna >  5.90
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Promig_Pistes/Columna >  6.25
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- Desviacio_Est._Mida_Pistes >  2.92
+|   |   |   |   |--- class: 1
+|   |   |--- Desviacio_Est._Mida_Pistes >  2.95
+|   |   |   |--- Promig_Llibertat_Total <= 44.10
+|   |   |   |   |--- class: 0
+|   |   |   |--- Promig_Llibertat_Total >  44.10
+|   |   |   |   |--- Promig_Llibertat_Total <= 44.67
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Promig_Llibertat_Total >  44.67
+|   |   |   |   |   |--- class: 0

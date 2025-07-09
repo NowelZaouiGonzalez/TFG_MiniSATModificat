@@ -1,0 +1,19 @@
+|--- Promig_Llibertat_Total <= 44.10
+|   |--- %_Caselles_Pintades <= 44.99
+|   |   |--- %_Caselles_Pintades <= 44.12
+|   |   |   |--- class: 0
+|   |   |--- %_Caselles_Pintades >  44.12
+|   |   |   |--- Ratio_F/C <= 0.91
+|   |   |   |   |--- class: 1
+|   |   |   |--- Ratio_F/C >  0.91
+|   |   |   |   |--- %_Caselles_Pintades <= 44.22
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- %_Caselles_Pintades >  44.22
+|   |   |   |   |   |--- class: 0
+|   |--- %_Caselles_Pintades >  44.99
+|   |   |--- class: 0
+|--- Promig_Llibertat_Total >  44.10
+|   |--- Promig_Llibertat_Total <= 44.67
+|   |   |--- class: 1
+|   |--- Promig_Llibertat_Total >  44.67
+|   |   |--- class: 0

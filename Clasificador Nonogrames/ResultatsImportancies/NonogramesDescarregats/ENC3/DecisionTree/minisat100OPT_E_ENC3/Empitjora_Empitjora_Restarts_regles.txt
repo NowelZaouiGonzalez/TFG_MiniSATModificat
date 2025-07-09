@@ -1,0 +1,22 @@
+|--- Total_Pistes <= 1201.00
+|   |--- Promig_Pistes/Columna <= 7.27
+|   |   |--- class: 0
+|   |--- Promig_Pistes/Columna >  7.27
+|   |   |--- Promig_Pistes/Columna <= 7.29
+|   |   |   |--- Desviacio_Est._Mida_Pistes <= 3.07
+|   |   |   |   |--- class: 0
+|   |   |   |--- Desviacio_Est._Mida_Pistes >  3.07
+|   |   |   |   |--- class: 1
+|   |   |--- Promig_Pistes/Columna >  7.29
+|   |   |   |--- class: 0
+|--- Total_Pistes >  1201.00
+|   |--- Promig_Pistes/Fila <= 8.58
+|   |   |--- %_Caselles_Pintades <= 56.48
+|   |   |   |--- Promig_Pistes/Fila <= 7.55
+|   |   |   |   |--- class: 0
+|   |   |   |--- Promig_Pistes/Fila >  7.55
+|   |   |   |   |--- class: 1
+|   |   |--- %_Caselles_Pintades >  56.48
+|   |   |   |--- class: 0
+|   |--- Promig_Pistes/Fila >  8.58
+|   |   |--- class: 0

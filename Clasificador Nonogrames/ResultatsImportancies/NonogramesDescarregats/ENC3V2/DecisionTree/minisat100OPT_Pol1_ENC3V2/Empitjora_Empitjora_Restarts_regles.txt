@@ -1,0 +1,49 @@
+|--- Promig_Llibertat_Total <= 38.93
+|   |--- Promig_Pistes/Fila <= 5.98
+|   |   |--- %_Caselles_Pintades <= 40.22
+|   |   |   |--- %_Caselles_Pintades <= 39.92
+|   |   |   |   |--- class: 0
+|   |   |   |--- %_Caselles_Pintades >  39.92
+|   |   |   |   |--- Promig_Llibertat_Total <= 19.11
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Promig_Llibertat_Total >  19.11
+|   |   |   |   |   |--- class: 1
+|   |   |--- %_Caselles_Pintades >  40.22
+|   |   |   |--- class: 0
+|   |--- Promig_Pistes/Fila >  5.98
+|   |   |--- Promig_Pistes/Fila <= 6.02
+|   |   |   |--- class: 1
+|   |   |--- Promig_Pistes/Fila >  6.02
+|   |   |   |--- Mitjana_Mida_Pistes <= 1.62
+|   |   |   |   |--- class: 0
+|   |   |   |--- Mitjana_Mida_Pistes >  1.62
+|   |   |   |   |--- %_Caselles_Pintades <= 55.96
+|   |   |   |   |   |--- Ratio_F/C <= 1.08
+|   |   |   |   |   |   |--- Promig_Llibertat_Total <= 27.91
+|   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 6.36
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  6.36
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Promig_Llibertat_Total >  27.91
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Ratio_F/C >  1.08
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- %_Caselles_Pintades >  55.96
+|   |   |   |   |   |--- Promig_Pistes/Columna <= 9.14
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Promig_Pistes/Columna >  9.14
+|   |   |   |   |   |   |--- Promig_Pistes/Columna <= 9.41
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Promig_Pistes/Columna >  9.41
+|   |   |   |   |   |   |   |--- class: 0
+|--- Promig_Llibertat_Total >  38.93
+|   |--- Total_Pistes <= 1235.00
+|   |   |--- %_Caselles_Pintades <= 47.18
+|   |   |   |--- Promig_Llibertat_Total <= 47.46
+|   |   |   |   |--- class: 0
+|   |   |   |--- Promig_Llibertat_Total >  47.46
+|   |   |   |   |--- class: 1
+|   |   |--- %_Caselles_Pintades >  47.18
+|   |   |   |--- class: 1
+|   |--- Total_Pistes >  1235.00
+|   |   |--- class: 0

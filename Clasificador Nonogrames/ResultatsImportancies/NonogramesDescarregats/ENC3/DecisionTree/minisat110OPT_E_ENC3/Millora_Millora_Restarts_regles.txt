@@ -1,0 +1,10 @@
+|--- Promig_Pistes/Columna <= 9.47
+|   |--- class: 0
+|--- Promig_Pistes/Columna >  9.47
+|   |--- Desviacio_Est._Mida_Pistes <= 3.00
+|   |   |--- class: 1
+|   |--- Desviacio_Est._Mida_Pistes >  3.00
+|   |   |--- Promig_Pistes/Columna <= 9.56
+|   |   |   |--- class: 1
+|   |   |--- Promig_Pistes/Columna >  9.56
+|   |   |   |--- class: 0

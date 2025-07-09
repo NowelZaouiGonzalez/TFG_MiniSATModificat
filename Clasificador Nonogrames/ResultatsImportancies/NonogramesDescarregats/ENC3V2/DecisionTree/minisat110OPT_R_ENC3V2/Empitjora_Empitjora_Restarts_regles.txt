@@ -1,0 +1,16 @@
+|--- Promig_Pistes/Fila <= 10.21
+|   |--- Total_Pistes <= 1201.00
+|   |   |--- class: 0
+|   |--- Total_Pistes >  1201.00
+|   |   |--- Total_Pistes <= 1235.00
+|   |   |   |--- Desviacio_Est._Mida_Pistes <= 3.00
+|   |   |   |   |--- class: 0
+|   |   |   |--- Desviacio_Est._Mida_Pistes >  3.00
+|   |   |   |   |--- class: 1
+|   |   |--- Total_Pistes >  1235.00
+|   |   |   |--- class: 0
+|--- Promig_Pistes/Fila >  10.21
+|   |--- Total_Pistes <= 1237.50
+|   |   |--- class: 1
+|   |--- Total_Pistes >  1237.50
+|   |   |--- class: 0

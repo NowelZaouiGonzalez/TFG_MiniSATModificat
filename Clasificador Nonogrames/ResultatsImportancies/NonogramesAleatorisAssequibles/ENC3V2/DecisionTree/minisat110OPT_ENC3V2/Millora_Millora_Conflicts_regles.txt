@@ -1,0 +1,76 @@
+|--- %_Caselles_Pintades <= 28.36
+|   |--- Total_Pistes <= 1256.00
+|   |   |--- Promig_Llibertat_Total <= 42.36
+|   |   |   |--- Desviacio_Est._Mida_Pistes <= 0.59
+|   |   |   |   |--- class: 1
+|   |   |   |--- Desviacio_Est._Mida_Pistes >  0.59
+|   |   |   |   |--- class: 0
+|   |   |--- Promig_Llibertat_Total >  42.36
+|   |   |   |--- class: 0
+|   |--- Total_Pistes >  1256.00
+|   |   |--- Mitjana_Mida_Pistes <= 0.62
+|   |   |   |--- class: 0
+|   |   |--- Mitjana_Mida_Pistes >  0.62
+|   |   |   |--- Mitjana_Mida_Pistes <= 0.69
+|   |   |   |   |--- Desviacio_Est._Mida_Pistes <= 0.58
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Desviacio_Est._Mida_Pistes >  0.58
+|   |   |   |   |   |--- %_Caselles_Pintades <= 25.45
+|   |   |   |   |   |   |--- Promig_Pistes/Fila <= 9.30
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Promig_Pistes/Fila >  9.30
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- %_Caselles_Pintades >  25.45
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- Mitjana_Mida_Pistes >  0.69
+|   |   |   |   |--- class: 0
+|--- %_Caselles_Pintades >  28.36
+|   |--- %_Caselles_Pintades <= 29.45
+|   |   |--- class: 1
+|   |--- %_Caselles_Pintades >  29.45
+|   |   |--- Desviacio_Est._Mida_Pistes <= 0.78
+|   |   |   |--- class: 0
+|   |   |--- Desviacio_Est._Mida_Pistes >  0.78
+|   |   |   |--- Promig_Llibertat_Total <= 27.47
+|   |   |   |   |--- class: 0
+|   |   |   |--- Promig_Llibertat_Total >  27.47
+|   |   |   |   |--- %_Caselles_Pintades <= 49.52
+|   |   |   |   |   |--- Desviacio_Est._Mida_Pistes <= 1.36
+|   |   |   |   |   |   |--- Promig_Llibertat_Total <= 31.68
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Promig_Llibertat_Total >  31.68
+|   |   |   |   |   |   |   |--- Total_Pistes <= 917.00
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Columna <= 4.94
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Columna >  4.94
+|   |   |   |   |   |   |   |   |   |--- Promig_Llibertat_Total <= 33.83
+|   |   |   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes <= 0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes >  0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- Promig_Llibertat_Total >  33.83
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Total_Pistes >  917.00
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 14.22
+|   |   |   |   |   |   |   |   |   |--- Total_Pistes <= 1105.50
+|   |   |   |   |   |   |   |   |   |   |--- Ratio_F/C <= 1.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Ratio_F/C >  1.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Total_Pistes >  1105.50
+|   |   |   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes <= 0.74
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes >  0.74
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  14.22
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 16.86
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  16.86
+|   |   |   |   |   |   |   |   |   |   |--- Relatiu_Llibertat_Total <= 0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- Relatiu_Llibertat_Total >  0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- Desviacio_Est._Mida_Pistes >  1.36
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- %_Caselles_Pintades >  49.52
+|   |   |   |   |   |--- class: 1

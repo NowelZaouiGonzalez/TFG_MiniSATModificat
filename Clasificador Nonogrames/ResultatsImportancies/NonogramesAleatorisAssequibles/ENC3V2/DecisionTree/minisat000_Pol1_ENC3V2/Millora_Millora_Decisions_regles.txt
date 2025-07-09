@@ -1,0 +1,94 @@
+|--- Promig_Pistes/Fila <= 4.53
+|   |--- class: 0
+|--- Promig_Pistes/Fila >  4.53
+|   |--- Promig_Pistes/Columna <= 5.46
+|   |   |--- Desviacio_Est._Mida_Pistes <= 1.08
+|   |   |   |--- class: 0
+|   |   |--- Desviacio_Est._Mida_Pistes >  1.08
+|   |   |   |--- class: 1
+|   |--- Promig_Pistes/Columna >  5.46
+|   |   |--- Total_Pistes <= 1147.00
+|   |   |   |--- Total_Pistes <= 956.00
+|   |   |   |   |--- Promig_Pistes/Fila <= 11.49
+|   |   |   |   |   |--- Promig_Llibertat_Total <= 26.61
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Promig_Llibertat_Total >  26.61
+|   |   |   |   |   |   |--- Promig_Pistes/Columna <= 10.76
+|   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 5.47
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  5.47
+|   |   |   |   |   |   |   |   |--- %_Caselles_Pintades <= 24.02
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- %_Caselles_Pintades >  24.02
+|   |   |   |   |   |   |   |   |   |--- %_Caselles_Pintades <= 25.61
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- %_Caselles_Pintades >  25.61
+|   |   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 8.34
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  8.34
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Promig_Pistes/Columna >  10.76
+|   |   |   |   |   |   |   |--- Ratio_F/C <= 2.43
+|   |   |   |   |   |   |   |   |--- Total_Pistes <= 723.50
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Total_Pistes >  723.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Ratio_F/C >  2.43
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Promig_Pistes/Fila >  11.49
+|   |   |   |   |   |--- Mitjana_Mida_Pistes <= 0.94
+|   |   |   |   |   |   |--- Promig_Llibertat_Total <= 33.27
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Promig_Llibertat_Total >  33.27
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Mitjana_Mida_Pistes >  0.94
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- Total_Pistes >  956.00
+|   |   |   |   |--- Promig_Pistes/Columna <= 17.82
+|   |   |   |   |   |--- Promig_Llibertat_Total <= 53.11
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Promig_Llibertat_Total >  53.11
+|   |   |   |   |   |   |--- Mitjana_Mida_Pistes <= 0.63
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Mitjana_Mida_Pistes >  0.63
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Promig_Pistes/Columna >  17.82
+|   |   |   |   |   |--- class: 0
+|   |   |--- Total_Pistes >  1147.00
+|   |   |   |--- Total_Pistes <= 1311.50
+|   |   |   |   |--- Desviacio_Est._Mida_Pistes <= 0.71
+|   |   |   |   |   |--- Promig_Pistes/Fila <= 9.73
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Promig_Pistes/Fila >  9.73
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Desviacio_Est._Mida_Pistes >  0.71
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- Total_Pistes >  1311.50
+|   |   |   |   |--- Promig_Pistes/Fila <= 14.28
+|   |   |   |   |   |--- Promig_Pistes/Fila <= 11.91
+|   |   |   |   |   |   |--- Promig_Llibertat_Total <= 52.77
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Promig_Llibertat_Total >  52.77
+|   |   |   |   |   |   |   |--- Ratio_F/C <= 1.12
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Columna <= 9.86
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Columna >  9.86
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- Ratio_F/C >  1.12
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 9.30
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  9.30
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Promig_Pistes/Fila >  11.91
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Promig_Pistes/Fila >  14.28
+|   |   |   |   |   |--- Relatiu_Llibertat_Total <= 0.72
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Relatiu_Llibertat_Total >  0.72
+|   |   |   |   |   |   |--- Promig_Pistes/Columna <= 11.86
+|   |   |   |   |   |   |   |--- Promig_Pistes/Columna <= 10.96
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- Promig_Pistes/Columna >  10.96
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- Promig_Pistes/Columna >  11.86
+|   |   |   |   |   |   |   |--- class: 1

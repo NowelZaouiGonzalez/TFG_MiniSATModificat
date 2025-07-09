@@ -1,0 +1,19 @@
+|--- Promig_Llibertat_Total <= 39.98
+|   |--- Promig_Pistes/Fila <= 7.89
+|   |   |--- class: 0
+|   |--- Promig_Pistes/Fila >  7.89
+|   |   |--- Promig_Pistes/Fila <= 8.05
+|   |   |   |--- class: 1
+|   |   |--- Promig_Pistes/Fila >  8.05
+|   |   |   |--- class: 0
+|--- Promig_Llibertat_Total >  39.98
+|   |--- Desviacio_Est._Mida_Pistes <= 4.39
+|   |   |--- Desviacio_Est._Mida_Pistes <= 3.00
+|   |   |   |--- class: 0
+|   |   |--- Desviacio_Est._Mida_Pistes >  3.00
+|   |   |   |--- Promig_Pistes/Columna <= 5.65
+|   |   |   |   |--- class: 0
+|   |   |   |--- Promig_Pistes/Columna >  5.65
+|   |   |   |   |--- class: 1
+|   |--- Desviacio_Est._Mida_Pistes >  4.39
+|   |   |--- class: 0

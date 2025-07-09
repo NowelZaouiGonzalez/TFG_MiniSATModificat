@@ -1,0 +1,22 @@
+|--- Relatiu_Llibertat_Total <= 0.66
+|   |--- class: 0
+|--- Relatiu_Llibertat_Total >  0.66
+|   |--- Promig_Pistes/Fila <= 6.10
+|   |   |--- Mitjana_Mida_Pistes <= 1.79
+|   |   |   |--- class: 0
+|   |   |--- Mitjana_Mida_Pistes >  1.79
+|   |   |   |--- Desviacio_Est._Mida_Pistes <= 2.98
+|   |   |   |   |--- class: 1
+|   |   |   |--- Desviacio_Est._Mida_Pistes >  2.98
+|   |   |   |   |--- class: 0
+|   |--- Promig_Pistes/Fila >  6.10
+|   |   |--- Promig_Pistes/Fila <= 6.13
+|   |   |   |--- class: 1
+|   |   |--- Promig_Pistes/Fila >  6.13
+|   |   |   |--- Promig_Llibertat_Total <= 32.63
+|   |   |   |   |--- Promig_Llibertat_Total <= 29.93
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Promig_Llibertat_Total >  29.93
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- Promig_Llibertat_Total >  32.63
+|   |   |   |   |--- class: 0

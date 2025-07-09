@@ -1,0 +1,52 @@
+|--- Promig_Pistes/Columna <= 4.37
+|   |--- %_Caselles_Pintades <= 54.49
+|   |   |--- %_Caselles_Pintades <= 36.35
+|   |   |   |--- Promig_Pistes/Fila <= 2.54
+|   |   |   |   |--- class: 0
+|   |   |   |--- Promig_Pistes/Fila >  2.54
+|   |   |   |   |--- class: 1
+|   |   |--- %_Caselles_Pintades >  36.35
+|   |   |   |--- Ratio_F/C <= 1.47
+|   |   |   |   |--- Promig_Llibertat_Total <= 7.86
+|   |   |   |   |   |--- Desviacio_Est._Mida_Pistes <= 1.55
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Desviacio_Est._Mida_Pistes >  1.55
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Promig_Llibertat_Total >  7.86
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- Ratio_F/C >  1.47
+|   |   |   |   |--- Promig_Pistes/Columna <= 2.99
+|   |   |   |   |   |--- Promig_Pistes/Fila <= 2.41
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Promig_Pistes/Fila >  2.41
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Promig_Pistes/Columna >  2.99
+|   |   |   |   |   |--- %_Caselles_Pintades <= 43.60
+|   |   |   |   |   |   |--- %_Caselles_Pintades <= 42.89
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- %_Caselles_Pintades >  42.89
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- %_Caselles_Pintades >  43.60
+|   |   |   |   |   |   |--- class: 0
+|   |--- %_Caselles_Pintades >  54.49
+|   |   |--- Promig_Llibertat_Total <= 9.76
+|   |   |   |--- class: 0
+|   |   |--- Promig_Llibertat_Total >  9.76
+|   |   |   |--- Ratio_F/C <= 1.18
+|   |   |   |   |--- class: 1
+|   |   |   |--- Ratio_F/C >  1.18
+|   |   |   |   |--- Desviacio_Est._Mida_Pistes <= 5.38
+|   |   |   |   |   |--- Mitjana_Mida_Pistes <= 2.09
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Mitjana_Mida_Pistes >  2.09
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Desviacio_Est._Mida_Pistes >  5.38
+|   |   |   |   |   |--- class: 1
+|--- Promig_Pistes/Columna >  4.37
+|   |--- Mitjana_Mida_Pistes <= 1.54
+|   |   |--- %_Caselles_Pintades <= 54.63
+|   |   |   |--- class: 0
+|   |   |--- %_Caselles_Pintades >  54.63
+|   |   |   |--- class: 1
+|   |--- Mitjana_Mida_Pistes >  1.54
+|   |   |--- class: 0

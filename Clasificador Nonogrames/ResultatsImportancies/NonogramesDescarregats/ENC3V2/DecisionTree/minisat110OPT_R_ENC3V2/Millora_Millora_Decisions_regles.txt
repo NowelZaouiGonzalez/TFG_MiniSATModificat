@@ -1,0 +1,43 @@
+|--- Promig_Pistes/Columna <= 12.32
+|   |--- Promig_Llibertat_Total <= 43.53
+|   |   |--- Promig_Pistes/Columna <= 5.38
+|   |   |   |--- class: 0
+|   |   |--- Promig_Pistes/Columna >  5.38
+|   |   |   |--- Promig_Pistes/Columna <= 5.43
+|   |   |   |   |--- class: 1
+|   |   |   |--- Promig_Pistes/Columna >  5.43
+|   |   |   |   |--- Promig_Pistes/Columna <= 6.25
+|   |   |   |   |   |--- Promig_Pistes/Fila <= 6.08
+|   |   |   |   |   |   |--- Ratio_F/C <= 0.83
+|   |   |   |   |   |   |   |--- Promig_Pistes/Columna <= 5.87
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Promig_Pistes/Columna >  5.87
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Ratio_F/C >  0.83
+|   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 4.12
+|   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes <= 2.13
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes >  2.13
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  4.12
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Promig_Pistes/Fila >  6.08
+|   |   |   |   |   |   |--- Promig_Pistes/Fila <= 6.73
+|   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 6.25
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Columna <= 5.92
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Columna >  5.92
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  6.25
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Promig_Pistes/Fila >  6.73
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Promig_Pistes/Columna >  6.25
+|   |   |   |   |   |--- class: 0
+|   |--- Promig_Llibertat_Total >  43.53
+|   |   |--- Desviacio_Est._Mida_Pistes <= 4.39
+|   |   |   |--- class: 1
+|   |   |--- Desviacio_Est._Mida_Pistes >  4.39
+|   |   |   |--- class: 0
+|--- Promig_Pistes/Columna >  12.32
+|   |--- class: 1

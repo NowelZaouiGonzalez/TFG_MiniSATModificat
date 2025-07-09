@@ -1,0 +1,46 @@
+|--- Promig_Llibertat_Total <= 33.33
+|   |--- Promig_Llibertat_Total <= 31.45
+|   |   |--- class: 0
+|   |--- Promig_Llibertat_Total >  31.45
+|   |   |--- Promig_Llibertat_Total <= 31.52
+|   |   |   |--- class: 1
+|   |   |--- Promig_Llibertat_Total >  31.52
+|   |   |   |--- class: 0
+|--- Promig_Llibertat_Total >  33.33
+|   |--- Ratio_F/C <= 0.70
+|   |   |--- class: 1
+|   |--- Ratio_F/C >  0.70
+|   |   |--- Ratio_F/C <= 1.20
+|   |   |   |--- Promig_Llibertat_Total <= 33.75
+|   |   |   |   |--- class: 1
+|   |   |   |--- Promig_Llibertat_Total >  33.75
+|   |   |   |   |--- Promig_Llibertat_Total <= 40.91
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Promig_Llibertat_Total >  40.91
+|   |   |   |   |   |--- Promig_Llibertat_Total <= 41.99
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Promig_Llibertat_Total >  41.99
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- Ratio_F/C >  1.20
+|   |   |   |--- Mitjana_Mida_Pistes <= 2.96
+|   |   |   |   |--- Promig_Pistes/Columna <= 6.49
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Promig_Pistes/Columna >  6.49
+|   |   |   |   |   |--- %_Caselles_Pintades <= 58.74
+|   |   |   |   |   |   |--- Ratio_F/C <= 1.28
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Ratio_F/C >  1.28
+|   |   |   |   |   |   |   |--- Promig_Pistes/Columna <= 12.32
+|   |   |   |   |   |   |   |   |--- Ratio_F/C <= 1.48
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Ratio_F/C >  1.48
+|   |   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes <= 2.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes >  2.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- Promig_Pistes/Columna >  12.32
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- %_Caselles_Pintades >  58.74
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- Mitjana_Mida_Pistes >  2.96
+|   |   |   |   |--- class: 0

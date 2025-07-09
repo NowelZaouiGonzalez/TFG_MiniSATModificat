@@ -1,0 +1,88 @@
+|--- Ratio_F/C <= 0.78
+|   |--- Promig_Pistes/Columna <= 3.78
+|   |   |--- class: 0
+|   |--- Promig_Pistes/Columna >  3.78
+|   |   |--- Promig_Pistes/Columna <= 11.86
+|   |   |   |--- Promig_Pistes/Columna <= 6.08
+|   |   |   |   |--- Promig_Pistes/Columna <= 5.54
+|   |   |   |   |   |--- %_Caselles_Pintades <= 25.66
+|   |   |   |   |   |   |--- Desviacio_Est._Mida_Pistes <= 0.59
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Desviacio_Est._Mida_Pistes >  0.59
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- %_Caselles_Pintades >  25.66
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Promig_Pistes/Columna >  5.54
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- Promig_Pistes/Columna >  6.08
+|   |   |   |   |--- Promig_Llibertat_Total <= 54.15
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Promig_Llibertat_Total >  54.15
+|   |   |   |   |   |--- Ratio_F/C <= 0.57
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Ratio_F/C >  0.57
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- Promig_Pistes/Columna >  11.86
+|   |   |   |--- class: 0
+|--- Ratio_F/C >  0.78
+|   |--- Total_Pistes <= 723.50
+|   |   |--- Promig_Pistes/Fila <= 7.82
+|   |   |   |--- class: 1
+|   |   |--- Promig_Pistes/Fila >  7.82
+|   |   |   |--- class: 0
+|   |--- Total_Pistes >  723.50
+|   |   |--- Promig_Pistes/Fila <= 8.49
+|   |   |   |--- %_Caselles_Pintades <= 34.79
+|   |   |   |   |--- Ratio_F/C <= 1.36
+|   |   |   |   |   |--- Mitjana_Mida_Pistes <= 0.56
+|   |   |   |   |   |   |--- %_Caselles_Pintades <= 10.22
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- %_Caselles_Pintades >  10.22
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Mitjana_Mida_Pistes >  0.56
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Ratio_F/C >  1.36
+|   |   |   |   |   |--- Promig_Llibertat_Total <= 44.41
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Promig_Llibertat_Total >  44.41
+|   |   |   |   |   |   |--- Promig_Pistes/Columna <= 12.32
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Promig_Pistes/Columna >  12.32
+|   |   |   |   |   |   |   |--- Ratio_F/C <= 2.34
+|   |   |   |   |   |   |   |   |--- Total_Pistes <= 1241.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Total_Pistes >  1241.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- Ratio_F/C >  2.34
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- %_Caselles_Pintades >  34.79
+|   |   |   |   |--- class: 0
+|   |   |--- Promig_Pistes/Fila >  8.49
+|   |   |   |--- %_Caselles_Pintades <= 49.19
+|   |   |   |   |--- Promig_Pistes/Columna <= 8.73
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Promig_Pistes/Columna >  8.73
+|   |   |   |   |   |--- Promig_Llibertat_Total <= 35.51
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Promig_Llibertat_Total >  35.51
+|   |   |   |   |   |   |--- Promig_Pistes/Fila <= 9.76
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Promig_Pistes/Fila >  9.76
+|   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 9.93
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  9.93
+|   |   |   |   |   |   |   |   |--- %_Caselles_Pintades <= 18.72
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- %_Caselles_Pintades >  18.72
+|   |   |   |   |   |   |   |   |   |--- Promig_Llibertat_Total <= 38.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Promig_Llibertat_Total >  38.80
+|   |   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 11.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  11.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |--- %_Caselles_Pintades >  49.19
+|   |   |   |   |--- Relatiu_Llibertat_Total <= 0.72
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Relatiu_Llibertat_Total >  0.72
+|   |   |   |   |   |--- class: 0

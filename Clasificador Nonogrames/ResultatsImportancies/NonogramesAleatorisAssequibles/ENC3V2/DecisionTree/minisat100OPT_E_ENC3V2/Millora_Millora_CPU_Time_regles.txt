@@ -1,0 +1,64 @@
+|--- %_Caselles_Pintades <= 17.51
+|   |--- Total_Pistes <= 1259.00
+|   |   |--- Total_Pistes <= 825.00
+|   |   |   |--- Desviacio_Est._Mida_Pistes <= 0.36
+|   |   |   |   |--- class: 1
+|   |   |   |--- Desviacio_Est._Mida_Pistes >  0.36
+|   |   |   |   |--- Promig_Llibertat_Total <= 58.45
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Promig_Llibertat_Total >  58.45
+|   |   |   |   |   |--- class: 0
+|   |   |--- Total_Pistes >  825.00
+|   |   |   |--- class: 0
+|   |--- Total_Pistes >  1259.00
+|   |   |--- class: 1
+|--- %_Caselles_Pintades >  17.51
+|   |--- Desviacio_Est._Mida_Pistes <= 1.25
+|   |   |--- Total_Pistes <= 2063.00
+|   |   |   |--- Ratio_F/C <= 3.46
+|   |   |   |   |--- Promig_Pistes/Columna <= 3.78
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Promig_Pistes/Columna >  3.78
+|   |   |   |   |   |--- Promig_Llibertat_Total <= 26.35
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Promig_Llibertat_Total >  26.35
+|   |   |   |   |   |   |--- Total_Pistes <= 676.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Total_Pistes >  676.00
+|   |   |   |   |   |   |   |--- Total_Pistes <= 703.50
+|   |   |   |   |   |   |   |   |--- Promig_Llibertat_Total <= 38.47
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Promig_Llibertat_Total >  38.47
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- Total_Pistes >  703.50
+|   |   |   |   |   |   |   |   |--- Ratio_F/C <= 1.19
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 9.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  9.90
+|   |   |   |   |   |   |   |   |   |   |--- Total_Pistes <= 896.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Total_Pistes >  896.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- Ratio_F/C >  1.19
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Columna <= 17.49
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Columna >  17.49
+|   |   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 8.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  8.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- Ratio_F/C >  3.46
+|   |   |   |   |--- class: 0
+|   |   |--- Total_Pistes >  2063.00
+|   |   |   |--- class: 0
+|   |--- Desviacio_Est._Mida_Pistes >  1.25
+|   |   |--- Ratio_F/C <= 0.88
+|   |   |   |--- class: 1
+|   |   |--- Ratio_F/C >  0.88
+|   |   |   |--- Promig_Pistes/Fila <= 14.60
+|   |   |   |   |--- class: 0
+|   |   |   |--- Promig_Pistes/Fila >  14.60
+|   |   |   |   |--- Ratio_F/C <= 1.15
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Ratio_F/C >  1.15
+|   |   |   |   |   |--- class: 1

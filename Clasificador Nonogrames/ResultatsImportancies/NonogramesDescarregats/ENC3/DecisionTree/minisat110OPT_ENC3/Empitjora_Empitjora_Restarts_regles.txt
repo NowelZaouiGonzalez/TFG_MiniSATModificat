@@ -1,0 +1,28 @@
+|--- Promig_Pistes/Columna <= 12.32
+|   |--- Promig_Llibertat_Total <= 44.10
+|   |   |--- Promig_Llibertat_Total <= 41.39
+|   |   |   |--- Relatiu_Llibertat_Total <= 0.69
+|   |   |   |   |--- class: 0
+|   |   |   |--- Relatiu_Llibertat_Total >  0.69
+|   |   |   |   |--- Total_Pistes <= 579.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Total_Pistes >  579.50
+|   |   |   |   |   |--- Mitjana_Mida_Pistes <= 1.45
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Mitjana_Mida_Pistes >  1.45
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- Promig_Llibertat_Total >  41.39
+|   |   |   |--- Promig_Llibertat_Total <= 41.99
+|   |   |   |   |--- class: 1
+|   |   |   |--- Promig_Llibertat_Total >  41.99
+|   |   |   |   |--- class: 0
+|   |--- Promig_Llibertat_Total >  44.10
+|   |   |--- Relatiu_Llibertat_Total <= 0.66
+|   |   |   |--- Promig_Pistes/Fila <= 8.71
+|   |   |   |   |--- class: 1
+|   |   |   |--- Promig_Pistes/Fila >  8.71
+|   |   |   |   |--- class: 0
+|   |   |--- Relatiu_Llibertat_Total >  0.66
+|   |   |   |--- class: 0
+|--- Promig_Pistes/Columna >  12.32
+|   |--- class: 1

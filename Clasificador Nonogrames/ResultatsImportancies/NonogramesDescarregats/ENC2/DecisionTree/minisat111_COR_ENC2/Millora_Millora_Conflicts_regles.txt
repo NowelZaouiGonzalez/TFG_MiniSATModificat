@@ -1,0 +1,97 @@
+|--- Mitjana_Mida_Pistes <= 4.63
+|   |--- Promig_Pistes/Columna <= 10.14
+|   |   |--- Mitjana_Mida_Pistes <= 3.15
+|   |   |   |--- Total_Pistes <= 1186.00
+|   |   |   |   |--- Promig_Pistes/Fila <= 8.01
+|   |   |   |   |   |--- Promig_Llibertat_Total <= 23.05
+|   |   |   |   |   |   |--- Promig_Pistes/Columna <= 2.19
+|   |   |   |   |   |   |   |--- Promig_Pistes/Columna <= 1.77
+|   |   |   |   |   |   |   |   |--- %_Caselles_Pintades <= 37.52
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- %_Caselles_Pintades >  37.52
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Promig_Pistes/Columna >  1.77
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Promig_Pistes/Columna >  2.19
+|   |   |   |   |   |   |   |--- Desviacio_Est._Mida_Pistes <= 4.93
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 4.87
+|   |   |   |   |   |   |   |   |   |--- %_Caselles_Pintades <= 48.09
+|   |   |   |   |   |   |   |   |   |   |--- Relatiu_Llibertat_Total <= 0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Relatiu_Llibertat_Total >  0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- %_Caselles_Pintades >  48.09
+|   |   |   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes <= 1.66
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes >  1.66
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  4.87
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Desviacio_Est._Mida_Pistes >  4.93
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Promig_Llibertat_Total >  23.05
+|   |   |   |   |   |   |--- Total_Pistes <= 660.50
+|   |   |   |   |   |   |   |--- %_Caselles_Pintades <= 48.08
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 4.67
+|   |   |   |   |   |   |   |   |   |--- %_Caselles_Pintades <= 33.72
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- %_Caselles_Pintades >  33.72
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  4.67
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 5.40
+|   |   |   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes <= 1.74
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes >  1.74
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  5.40
+|   |   |   |   |   |   |   |   |   |   |--- Total_Pistes <= 416.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- Total_Pistes >  416.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |--- %_Caselles_Pintades >  48.08
+|   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes <= 1.99
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes >  1.99
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Columna <= 5.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Columna >  5.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- Total_Pistes >  660.50
+|   |   |   |   |   |   |   |--- Total_Pistes <= 832.00
+|   |   |   |   |   |   |   |   |--- Promig_Llibertat_Total <= 25.51
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Promig_Llibertat_Total >  25.51
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 4.78
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  4.78
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Total_Pistes >  832.00
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 7.12
+|   |   |   |   |   |   |   |   |   |--- %_Caselles_Pintades <= 41.29
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- %_Caselles_Pintades >  41.29
+|   |   |   |   |   |   |   |   |   |   |--- Ratio_F/C <= 1.26
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- Ratio_F/C >  1.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  7.12
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Promig_Pistes/Fila >  8.01
+|   |   |   |   |   |--- Mitjana_Mida_Pistes <= 1.70
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Mitjana_Mida_Pistes >  1.70
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- Total_Pistes >  1186.00
+|   |   |   |   |--- class: 1
+|   |   |--- Mitjana_Mida_Pistes >  3.15
+|   |   |   |--- Relatiu_Llibertat_Total <= 0.61
+|   |   |   |   |--- class: 1
+|   |   |   |--- Relatiu_Llibertat_Total >  0.61
+|   |   |   |   |--- class: 0
+|   |--- Promig_Pistes/Columna >  10.14
+|   |   |--- Mitjana_Mida_Pistes <= 1.51
+|   |   |   |--- class: 1
+|   |   |--- Mitjana_Mida_Pistes >  1.51
+|   |   |   |--- class: 0
+|--- Mitjana_Mida_Pistes >  4.63
+|   |--- class: 0

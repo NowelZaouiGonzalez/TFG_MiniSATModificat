@@ -1,0 +1,124 @@
+|--- Promig_Llibertat_Total <= 21.92
+|   |--- Desviacio_Est._Mida_Pistes <= 6.16
+|   |   |--- Total_Pistes <= 459.00
+|   |   |   |--- Promig_Llibertat_Total <= 17.24
+|   |   |   |   |--- class: 0
+|   |   |   |--- Promig_Llibertat_Total >  17.24
+|   |   |   |   |--- Promig_Llibertat_Total <= 18.36
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Promig_Llibertat_Total >  18.36
+|   |   |   |   |   |--- Desviacio_Est._Mida_Pistes <= 2.66
+|   |   |   |   |   |   |--- Desviacio_Est._Mida_Pistes <= 2.40
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- Desviacio_Est._Mida_Pistes >  2.40
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Desviacio_Est._Mida_Pistes >  2.66
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- Total_Pistes >  459.00
+|   |   |   |--- Ratio_F/C <= 1.08
+|   |   |   |   |--- class: 1
+|   |   |   |--- Ratio_F/C >  1.08
+|   |   |   |   |--- class: 0
+|   |--- Desviacio_Est._Mida_Pistes >  6.16
+|   |   |--- class: 1
+|--- Promig_Llibertat_Total >  21.92
+|   |--- Desviacio_Est._Mida_Pistes <= 2.54
+|   |   |--- Ratio_F/C <= 1.20
+|   |   |   |--- class: 1
+|   |   |--- Ratio_F/C >  1.20
+|   |   |   |--- %_Caselles_Pintades <= 44.77
+|   |   |   |   |--- class: 0
+|   |   |   |--- %_Caselles_Pintades >  44.77
+|   |   |   |   |--- class: 1
+|   |--- Desviacio_Est._Mida_Pistes >  2.54
+|   |   |--- Mitjana_Mida_Pistes <= 2.97
+|   |   |   |--- Promig_Pistes/Fila <= 7.63
+|   |   |   |   |--- Promig_Pistes/Columna <= 6.78
+|   |   |   |   |   |--- Promig_Pistes/Fila <= 6.27
+|   |   |   |   |   |   |--- %_Caselles_Pintades <= 49.70
+|   |   |   |   |   |   |   |--- %_Caselles_Pintades <= 46.84
+|   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes <= 2.77
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 3.89
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  3.89
+|   |   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila <= 4.36
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Fila >  4.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes >  2.77
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- %_Caselles_Pintades >  46.84
+|   |   |   |   |   |   |   |   |--- Ratio_F/C <= 0.83
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Ratio_F/C >  0.83
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Columna <= 5.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Promig_Pistes/Columna >  5.99
+|   |   |   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes <= 1.79
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes >  1.79
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- %_Caselles_Pintades >  49.70
+|   |   |   |   |   |   |   |--- Desviacio_Est._Mida_Pistes <= 6.26
+|   |   |   |   |   |   |   |   |--- Ratio_F/C <= 0.89
+|   |   |   |   |   |   |   |   |   |--- Desviacio_Est._Mida_Pistes <= 3.21
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Desviacio_Est._Mida_Pistes >  3.21
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Ratio_F/C >  0.89
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Desviacio_Est._Mida_Pistes >  6.26
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Promig_Pistes/Fila >  6.27
+|   |   |   |   |   |   |--- Mitjana_Mida_Pistes <= 1.60
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- Mitjana_Mida_Pistes >  1.60
+|   |   |   |   |   |   |   |--- Promig_Pistes/Columna <= 6.56
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- Promig_Pistes/Columna >  6.56
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Promig_Pistes/Columna >  6.78
+|   |   |   |   |   |--- %_Caselles_Pintades <= 42.29
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- %_Caselles_Pintades >  42.29
+|   |   |   |   |   |   |--- Promig_Pistes/Columna <= 9.47
+|   |   |   |   |   |   |   |--- %_Caselles_Pintades <= 47.12
+|   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes <= 2.27
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- Mitjana_Mida_Pistes >  2.27
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- %_Caselles_Pintades >  47.12
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Promig_Pistes/Columna >  9.47
+|   |   |   |   |   |   |   |--- Ratio_F/C <= 1.41
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Ratio_F/C >  1.41
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- Promig_Pistes/Fila >  7.63
+|   |   |   |   |--- Mitjana_Mida_Pistes <= 1.97
+|   |   |   |   |   |--- Desviacio_Est._Mida_Pistes <= 2.75
+|   |   |   |   |   |   |--- Desviacio_Est._Mida_Pistes <= 2.72
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- Desviacio_Est._Mida_Pistes >  2.72
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Desviacio_Est._Mida_Pistes >  2.75
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Mitjana_Mida_Pistes >  1.97
+|   |   |   |   |   |--- Promig_Llibertat_Total <= 35.42
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Promig_Llibertat_Total >  35.42
+|   |   |   |   |   |   |--- Promig_Llibertat_Total <= 43.73
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Promig_Llibertat_Total >  43.73
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |--- Mitjana_Mida_Pistes >  2.97
+|   |   |   |--- %_Caselles_Pintades <= 70.06
+|   |   |   |   |--- Desviacio_Est._Mida_Pistes <= 8.71
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Desviacio_Est._Mida_Pistes >  8.71
+|   |   |   |   |   |--- Mitjana_Mida_Pistes <= 4.97
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Mitjana_Mida_Pistes >  4.97
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- %_Caselles_Pintades >  70.06
+|   |   |   |   |--- class: 1

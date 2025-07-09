@@ -1,0 +1,31 @@
+|--- Promig_Pistes/Fila <= 10.21
+|   |--- Promig_Llibertat_Total <= 41.39
+|   |   |--- Promig_Llibertat_Total <= 29.35
+|   |   |   |--- class: 0
+|   |   |--- Promig_Llibertat_Total >  29.35
+|   |   |   |--- Promig_Llibertat_Total <= 29.40
+|   |   |   |   |--- class: 1
+|   |   |   |--- Promig_Llibertat_Total >  29.40
+|   |   |   |   |--- Ratio_F/C <= 1.48
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Ratio_F/C >  1.48
+|   |   |   |   |   |--- Ratio_F/C <= 1.52
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Ratio_F/C >  1.52
+|   |   |   |   |   |   |--- class: 0
+|   |--- Promig_Llibertat_Total >  41.39
+|   |   |--- Promig_Llibertat_Total <= 43.53
+|   |   |   |--- Ratio_F/C <= 1.17
+|   |   |   |   |--- Promig_Llibertat_Total <= 41.99
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Promig_Llibertat_Total >  41.99
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- Ratio_F/C >  1.17
+|   |   |   |   |--- class: 1
+|   |   |--- Promig_Llibertat_Total >  43.53
+|   |   |   |--- class: 0
+|--- Promig_Pistes/Fila >  10.21
+|   |--- Total_Pistes <= 1237.50
+|   |   |--- class: 1
+|   |--- Total_Pistes >  1237.50
+|   |   |--- class: 0

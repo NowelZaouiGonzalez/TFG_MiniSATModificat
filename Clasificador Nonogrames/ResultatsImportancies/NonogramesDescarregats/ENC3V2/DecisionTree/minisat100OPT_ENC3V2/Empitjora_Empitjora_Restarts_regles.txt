@@ -1,0 +1,13 @@
+|--- Promig_Llibertat_Total <= 39.98
+|   |--- class: 0
+|--- Promig_Llibertat_Total >  39.98
+|   |--- Desviacio_Est._Mida_Pistes <= 4.39
+|   |   |--- Desviacio_Est._Mida_Pistes <= 3.00
+|   |   |   |--- class: 0
+|   |   |--- Desviacio_Est._Mida_Pistes >  3.00
+|   |   |   |--- Ratio_F/C <= 0.70
+|   |   |   |   |--- class: 0
+|   |   |   |--- Ratio_F/C >  0.70
+|   |   |   |   |--- class: 1
+|   |--- Desviacio_Est._Mida_Pistes >  4.39
+|   |   |--- class: 0

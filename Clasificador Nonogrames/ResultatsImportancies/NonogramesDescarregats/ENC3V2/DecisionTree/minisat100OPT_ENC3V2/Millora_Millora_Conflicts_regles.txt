@@ -1,0 +1,28 @@
+|--- Promig_Pistes/Columna <= 5.38
+|   |--- class: 0
+|--- Promig_Pistes/Columna >  5.38
+|   |--- Promig_Pistes/Columna <= 5.43
+|   |   |--- class: 1
+|   |--- Promig_Pistes/Columna >  5.43
+|   |   |--- Promig_Pistes/Columna <= 6.25
+|   |   |   |--- Promig_Pistes/Fila <= 6.08
+|   |   |   |   |--- Promig_Pistes/Fila <= 4.12
+|   |   |   |   |   |--- Mitjana_Mida_Pistes <= 2.13
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Mitjana_Mida_Pistes >  2.13
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Promig_Pistes/Fila >  4.12
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- Promig_Pistes/Fila >  6.08
+|   |   |   |   |--- Promig_Pistes/Fila <= 6.73
+|   |   |   |   |   |--- Mitjana_Mida_Pistes <= 1.81
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Mitjana_Mida_Pistes >  1.81
+|   |   |   |   |   |   |--- Promig_Pistes/Fila <= 6.36
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- Promig_Pistes/Fila >  6.36
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Promig_Pistes/Fila >  6.73
+|   |   |   |   |   |--- class: 0
+|   |   |--- Promig_Pistes/Columna >  6.25
+|   |   |   |--- class: 0
