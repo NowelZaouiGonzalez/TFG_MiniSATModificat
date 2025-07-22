@@ -22,30 +22,30 @@ Aquest directori conté les dades i scripts principals per l’anàlisi i classi
   Script que utilitza un model de Random Forest (o opcionalment un arbre de decisió) per identificar quins factors o característiques dels nonogrames influeixen en les millores o empitjoraments detectats per diferents executables.  
   Processa fitxers CSV amb resultats classificats per mètrica (millora o empitjorament) i genera fitxers CSV amb la importància relativa de cada característica, ajudant a entendre quins atributs són més rellevants.  
   L’entrada principal és un directori amb subcarpetes `with_<executable>` que contenen fitxers CSV de comparació, i un fitxer d’informació dels nonogrames (`infoNonogrames.csv`) amb característiques descriptives.
-  ### Ús i requisits de dades
+    ### Ús i requisits de dades
 
     - **Entrades:**  
      - Carpeta amb subcarpetes `with_<executable>`, cadascuna amb fitxers CSV que indiquen millores (`Better_in_<mètrica>.csv`), empitjoraments (`Worst_in_<mètrica>.csv`) i opcionalment `Is_IND.csv`.  
     - Fitxer CSV d’informació dels nonogrames (`infoNonogrames.csv`), amb característiques descriptives de cada nonograma.
 
-- **Execució:**  
-  ```bash
-  python RandomForestPerSabaerEnQueMillorenOEmpitjoren.py -d <directori> [-i <info_csv>] [--decision_tree]
-  ```
-  ### Paràmetres d'entrada
+    - **Execució:**  
+    ```bash
+    python RandomForestPerSabaerEnQueMillorenOEmpitjoren.py -d <directori> [-i <info_csv>] [--decision_tree]
+    ```
+    ### Paràmetres d'entrada
 
-- `-d`  
+    - `-d`  
   Directori base que conté les subcarpetes `with_<executable>`. Aquestes subcarpetes inclouen els fitxers CSV amb les dades d'anàlisi.
 
-- `-i` (opcional)  
-  Fitxer CSV amb la informació descriptiva dels nonogrames. Per defecte, `infoNonogrames.csv`.
+    - `-i` (opcional)  
+      Fitxer CSV amb la informació descriptiva dels nonogrames. Per defecte, `infoNonogrames.csv`.
 
-- `--decision_tree` (opcional)  
-  Si es passa aquesta opció, s'utilitza un arbre de decisió en lloc d'un Random Forest per l'entrenament i anàlisi.
+    - `--decision_tree` (opcional)  
+      Si es passa aquesta opció, s'utilitza un arbre de decisió en lloc d'un Random Forest per l'entrenament i anàlisi.
 
-### Sortida
+    ### Sortida
 
-Es genera una estructura de carpetes amb els resultats organitzats per executable i mètrica. Cada carpeta conté fitxers CSV amb la importància de les característiques. En cas d'utilitzar arbre de decisió, també s'exporta un fitxer de text amb les regles del model.
+    Es genera una estructura de carpetes amb els resultats organitzats per executable i mètrica. Cada carpeta conté fitxers CSV amb la importància de les característiques. En cas d'utilitzar arbre de decisió, també s'exporta un fitxer de text amb les regles del model.
 
 
 
