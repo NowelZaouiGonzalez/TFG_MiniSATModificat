@@ -13,7 +13,7 @@ El programa llegeix la informació d'un Nonograma des d'un fitxer `.txt` especif
 
 El **nom del Nonograma** es considerarà el mateix que el del fitxer, però sense l’extensió `.txt`.
 
-### 🔄 Si no s'especifica el paràmetre `-i`:
+### Si no s'especifica el paràmetre `-i`:
 
 Si no s'indica cap fitxer amb `-i nom_nonograma.txt`, el programa demanarà introduir **manualment des del teclat**:
 
@@ -101,7 +101,7 @@ Aquest fitxer es desa dins la carpeta `Encodings/` amb subcarpetes segons el mod
 - `ENC3_EficientiEnriquit`
 - `ENC3_EficientiEnriquitV2`
 
-> ⚠️ Aquesta funcionalitat utilitza la llibreria [`pysat`](https://pysathq.github.io/), que ha d’estar instal·lada prèviament.
+>  Aquesta funcionalitat utilitza la llibreria [`pysat`](https://pysathq.github.io/), que ha d’estar instal·lada prèviament.
 
 ## Fitxer auxiliar de tauler
 
