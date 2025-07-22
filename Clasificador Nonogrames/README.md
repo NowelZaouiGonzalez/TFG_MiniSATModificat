@@ -10,10 +10,10 @@ Aquest directori conté les dades i scripts principals per l’anàlisi i classi
 
 - **ResultatsBetterorWorst**  
   Carpeta on s’emmagatzemen els resultats que indiquen en quins aspectes un executable millora o empitjora.  
-  Conté CSVs amb mètriques comparatives i informes d’anàlisi.
+  Conté CSVs amb 0 i 1 del resultat d'executar **SaberAmbQuinsAMillorat_Empitjorat.py**
 
 - **ResultatsImportancies**  
-  Carpeta que conté els resultats de la importància de les característiques extretes pels models (Random Forest, arbres de decisió).  
+  Carpeta que conté els resultats de la importància de les característiques extretes pels models (Random Forest o arbres de decisió).  
   També inclou possibles regles i explicacions generades per l’anàlisi.
 
 ## Scripts Python
