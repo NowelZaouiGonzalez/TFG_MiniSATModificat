@@ -16,18 +16,23 @@ Aquest repositori conté els components desenvolupats per al Treball de Fi de Gr
 - **Codificador de nonogrames**  
   Script en Python que codifica nonogrames a SAT segons una de les codificacions disponibles: `ENC1`, `ENC2`, `ENC3` o `ENC3V2`.
 
-- **Informació dels nonogrames**
+- **INonogrames: nformació dels nonogrames**
+  Arxius de les  pistes que forma el nonograma.
   - **Nonogrames**: informació descarregada de nonograms.org. Inclou una subcarpeta amb les solucions.
   - **Nonogrames Aleatoris**: informació generada aleatòriament.
   - **Nonogrames Aleatoris Assequibles**: subconjunt dels nonogrames aleatoris seleccionats per obtenir els resultats. Inclòs per referència fàcil.
 
 - **Encodings (codificació SAT)**
-  - **Nonogrames**: codificats amb `ENC2`, `ENC3`, `ENC3V2`.
-  - **Nonogrames Aleatoris**: codificats amb `ENC3`, `ENC3V2`.
+  Codificacio a SAT dels Nonogrames a partir de les pistes dels arxius de la carpeta Nonogrames
+  - **Nonogrames Descarregats**: codificats amb `ENC1`,`ENC2`, `ENC3`, `ENC3V2`.
+  - **Nonogrames Aleatoris**: codificats amb `ENC2`,`ENC3`, `ENC3V2`.
   - **Nonogrames Aleatoris Assequibles**: codificats amb `ENC3`, `ENC3V2`.
 
 - **Resultats**  
   Resultats obtinguts en executar MiniSAT amb les diferents modificacions activades sobre les diverses codificacions.
+
+- **Altres Codis**
+  Altres codis i scripts utilittzats per al projecte
 
 
 
