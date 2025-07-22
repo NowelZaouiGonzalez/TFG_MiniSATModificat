@@ -19,7 +19,7 @@ def carregar_info_nonogrames(info_path):
 def entrenar_i_guardar_importancies_general(df_info, df_dades, target_col, executable, tipus_csv, output_folder, usar_arbre_decisio=False):
     df_dades['Nom_Nonograma'] = df_dades['File'].apply(lambda x: os.path.splitext(os.path.basename(x))[0])
 
-    # 🔴 Eliminar 'Result' si estem en el cas d'Is_IND
+    # Eliminar 'Result' si estem en el cas d'Is_IND
     if tipus_csv in ["Is", "Is_No"] and "Result" in df_dades.columns:
         df_dades = df_dades.drop(columns=["Result"])
 
@@ -36,7 +36,7 @@ def entrenar_i_guardar_importancies_general(df_info, df_dades, target_col, execu
         le = LabelEncoder()
         X[col] = le.fit_transform(X[col])
 
-    # ✅ Model segons l'opció
+    # Model segons l'opció
     if usar_arbre_decisio:
         model = DecisionTreeClassifier(random_state=42)
         nom_model = "arbre_decisio"
@@ -50,26 +50,26 @@ def entrenar_i_guardar_importancies_general(df_info, df_dades, target_col, execu
     features = X.columns
     resultats = sorted(zip(features, importancies), key=lambda x: x[1], reverse=True)
 
-    # ✅ Crear DataFrame de resultats
+    # Crear DataFrame de resultats
     df_resultats = pd.DataFrame(resultats, columns=["Feature", "Importancia"])
 
-    # ✅ Afegir regles si és arbre de decisió
+    # Afegir regles si és arbre de decisió
     if usar_arbre_decisio:
         regles = export_text(model, feature_names=list(features))
         regles_path = os.path.join(output_folder, f"{tipus_csv}_{target_col}_regles.txt")
         with open(regles_path, "w", encoding="utf-8") as f:
             f.write(regles)
 
-    # ✅ Guardar CSV
+    # Guardar CSV
     nom_arxiu = f"{tipus_csv}_{target_col}.csv"
     ruta_sortida = os.path.join(output_folder, nom_arxiu)
     df_resultats.to_csv(ruta_sortida, index=False, sep=';')
-    print(f"✅ Guardat {ruta_sortida}")
+    print(f"Guardat {ruta_sortida}")
 
 def analitzar_directori(directori, info_path, usar_arbre_decisio):
     df_info = carregar_info_nonogrames(info_path)
 
-    # ✅ Carpeta arrel de sortida segons model
+    # Carpeta arrel de sortida segons model
     base_name = os.path.basename(os.path.normpath(directori))
     nom_output_folder = f"Importancies{base_name}"
     if usar_arbre_decisio:
@@ -83,10 +83,10 @@ def analitzar_directori(directori, info_path, usar_arbre_decisio):
         if not os.path.isdir(path) or not carpeta.startswith("with_"):
             continue
 
-        # ✅ Obtenir nom de l'executable (sense "with_")
+        # Obtenir nom de l'executable (sense "with_")
         executable = carpeta.replace("with_", "")
 
-        # ✅ Crear subcarpeta amb nom de l'executable dins la carpeta de model
+        # Crear subcarpeta amb nom de l'executable dins la carpeta de model
         output_subfolder = os.path.join(nom_output_folder, executable)
         os.makedirs(output_subfolder, exist_ok=True)
 
@@ -140,7 +140,7 @@ def main():
     args = parser.parse_args()
 
     if not os.path.exists(args.info):
-        print(f"❌ No s'ha trobat l'arxiu {args.info}")
+        print(f"No s'ha trobat l'arxiu {args.info}")
         return
 
     analitzar_directori(args.directori, args.info, args.decision_tree)

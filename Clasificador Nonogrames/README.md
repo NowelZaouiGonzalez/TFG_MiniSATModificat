@@ -19,8 +19,41 @@ Aquest directori conté les dades i scripts principals per l’anàlisi i classi
 ## Scripts Python
 
 - **RandomForestPerSabaerEnQueMillorenOEmpitjoren.py**  
-  Script que utilitza un model Random Forest per identificar en quins aspectes els executables milloren o empitjoren.  
-  Genera resultats d’importància de característiques i exporta fitxers CSV amb les dades analitzades.
+  Script que utilitza un model de Random Forest (o opcionalment un arbre de decisió) per identificar quins factors o característiques dels nonogrames influeixen en les millores o empitjoraments detectats per diferents executables.  
+  Processa fitxers CSV amb resultats classificats per mètrica (millora o empitjorament) i genera fitxers CSV amb la importància relativa de cada característica, ajudant a entendre quins atributs són més rellevants.  
+  L’entrada principal és un directori amb subcarpetes `with_<executable>` que contenen fitxers CSV de comparació, i un fitxer d’informació dels nonogrames (`infoNonogrames.csv`) amb característiques descriptives.
+  ### Ús i requisits de dades
+
+    - **Entrades:**  
+     - Carpeta amb subcarpetes `with_<executable>`, cadascuna amb fitxers CSV que indiquen millores (`Better_in_<mètrica>.csv`), empitjoraments (`Worst_in_<mètrica>.csv`) i opcionalment `Is_IND.csv`.  
+    - Fitxer CSV d’informació dels nonogrames (`infoNonogrames.csv`), amb característiques descriptives de cada nonograma.
+
+- **Execució:**  
+  ```bash
+  python RandomForestPerSabaerEnQueMillorenOEmpitjoren.py -d <directori> [-i <info_csv>] [--decision_tree]
+  ```
+  ### Paràmetres d'entrada
+
+- `-d`  
+  Directori base que conté les subcarpetes `with_<executable>`. Aquestes subcarpetes inclouen els fitxers CSV amb les dades d'anàlisi.
+
+- `-i` (opcional)  
+  Fitxer CSV amb la informació descriptiva dels nonogrames. Per defecte, `infoNonogrames.csv`.
+
+- `--decision_tree` (opcional)  
+  Si es passa aquesta opció, s'utilitza un arbre de decisió en lloc d'un Random Forest per l'entrenament i anàlisi.
+
+### Sortida
+
+Es genera una estructura de carpetes amb els resultats organitzats per executable i mètrica. Cada carpeta conté fitxers CSV amb la importància de les característiques. En cas d'utilitzar arbre de decisió, també s'exporta un fitxer de text amb les regles del model.
+
+
+
+
+- **CodiSaberInfoCasellesNonogrames.py**  
+  Script que processa fitxers Nonogrames `.txt` amb les pistes dels nonogrames per calcular mètriques per al classificador.  
+  Genera un CSV resum amb dades com el percentatge de caselles pintades, mida i desviació de les pistes, i la llibertat relativa.  
+  Els fitxers `infoNonogramesDescarregats.csv` i `infoNonogramesRandom.csv` són exemples de resultats generats per aquest script.  
 
 - **SaberAmbQuinsAMillorat_Empitjorat.py**  
   Script que compara resultats CSV entre una carpeta base i altres carpetes per detectar millores i empitjoraments en diferents mètriques (Restarts, Conflicts, Decisions, CPU_Time).
