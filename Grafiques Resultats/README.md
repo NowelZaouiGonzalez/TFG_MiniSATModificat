@@ -11,10 +11,10 @@ Aquest enllaç conté les gràfiques corresponents tant als **Nonogrames Descarr
 
 Dins de la carpeta trobaràs, agrupades per **encoding** utilitzat (ENC2, ENC3, ENC3V2), diversos tipus de gràfiques:
 
-- 📊 **Diagrames de dispersió**  
+- **Diagrames de dispersió**  
   Representen visualment la relació entre diferents mètriques (com CPU Time vs Decisions, etc.) per cada problema resolt.
 
-- 🌵 **Cactus plots**  
+-  **Cactus plots**  
   S’han generat cactus plots per a les següents mètriques:
   - **Conflictes**
   - **Decisions**
